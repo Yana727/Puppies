@@ -1,0 +1,48 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+body {
+  font-family: sans-serif;
+  background-image: url(/Users/yanawilkins/Project/css_styling_assessment 2/starter_files/img/bg.jpg);
+}
+
+nav a {
+  color: white;
+  border: 1px solid white;
+  padding: .5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+header {
+  background-color: orange;
+  padding: 2em 3em 3em 3em;
+}
+h2 {color: deepskyblue;}
+p a {color: blue;}
+h3 {color:deepskyblue;}
+ul {border-bottom: 2px solid gray;}
+thead {background-color: deepskyblue;}
+table {border: 1px solid blue;
+border-collapse: collapse;
+}
+td {border: 1px solid blue;}
+h2 {border-top: 2px solid gray;}
+form div.name {background-color: orange;
+padding: 3em 3em 3em 3em;}
+div.name > label {
+  color: white;
+}
+div.city_container > label{
+  color: black;
+}
